@@ -1,0 +1,5 @@
+1.Helper.php
+  	function getImage($path, $image,$thumb = null)
+  	$host = Yii::app()->uri->segment(2);
+2.Content module CategoryController
+	$alias = Yii::app()->uri->segment(3);		

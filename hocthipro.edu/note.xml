@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies>
+ <movie>
+  <title>A movie name</title>
+  <year>2010</year>
+     <regions>
+   <region>
+    <categories>
+      <categorie id="3">Animation</categorie>
+      <categorie id="5">Comedy</categorie>
+      <categorie id="9">Family</categorie>
+     </categories>
+    <countries>
+     <country id="123">USA</country>
+    </countries>
+   </region>
+  </regions>
+ </movie>
+ <movie>
+  <title>Little Fockers</title>
+  <year>2010</year>
+     <regions>
+   <region>
+    <categories>
+     <categorie id="5">Comedy</categorie>
+             </categories>
+        <countries>
+         <country id="123">USA</country>
+    </countries>
+   </region>
+  </regions>
+ </movie>
+</movies>

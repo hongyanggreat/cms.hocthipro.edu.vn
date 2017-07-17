@@ -1,0 +1,117 @@
+.boxTimTruong header{
+	background: #19983f; 
+}
+.boxTimTruong header a {
+	color: #fff;
+	margin-left: 10px;
+}
+.boxTimTruong .showInfoSchool li strong {
+	color: #167b34;
+	font-size: 14px;
+}
+.boxTimTruong .showInfoSchool li input {
+	width: 100%;
+    font-style: italic;
+    padding: 5px;
+    border: 1px solid #aaaaaa;
+    color: #666;
+    font-size: 12px;
+}
+.boxTimTruong .showInfoSchool div[align="center"]{
+	margin-bottom: 20px;
+}
+.boxTimTruong .showInfoSchool input[type="button"] {
+	color: #fff;
+	padding: 3px 10px;
+    margin-top: 10px;
+	box-shadow: 1px 2px 3px 0px #000;
+	font-size: 15px;
+}
+.boxTimTruong .showInfoSchool input.resetSearch {
+	background: #182518;
+	border: 1px solid #ccc;
+}
+.boxTimTruong .showInfoSchool input.searchShool {
+	border: 1px solid green;
+	background: green;
+}
+.boxTimTruong .showInfoSchool li select {
+	width: 100%;
+    margin: 5px 0;
+    padding: 3px 5px;
+	background: #fff;
+    font-size: 12px;
+}
+.showListSchool {
+    margin: 5px auto;
+    padding: 5px;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 3px;
+    background: rgb(241, 241, 241);
+    max-height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.showListSchool ul#benchmarking{
+	font-size: 15px;
+}
+.showListSchool ul#benchmarking li:hover a{
+	color: green;
+}
+.showListSchool ul#benchmarking .clblue2{
+	color: #064C06;
+}
+form[name="formInfoBenchMark"] .pinkTab{
+  color: #19983f;
+
+}
+form[name="formInfoBenchMark"] .pinkTab h2{
+  text-decoration: none;
+  font-size: 20px;
+}
+div.nameSchool{
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+body{
+  font-size: 15px;
+}
+.infoSchool div:nth-child(2) {
+    margin-bottom: 10px;
+}
+.infoSchool>div>table>thead>tr:nth-child(1){
+    font-size: 18px;
+    color: #067728;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+@media only screen and (min-width: 768px) {
+   .boxTimTruong .showInfoSchool li select {
+   		width: 21%;
+      
+   }
+   .showListSchool{
+   		background: rgb(255, 255, 255);
+      border: 1px solid #ccc;
+   }
+   form[name="formInfoBenchMark"] .pinkTab h2{
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+   .boxTimTruong .showInfoSchool li select {
+   		width: 22%;
+   }
+   form[name="formInfoBenchMark"] .pinkTab h2{
+    font-size: 25px;
+   }
+
+}
+@media only screen and (min-width: 1440px) {
+   .boxTimTruong .showInfoSchool li select {
+   		width: 23%;
+   }
+   form[name="formInfoBenchMark"] .pinkTab h2{
+    font-size: 25px;
+   }
+}

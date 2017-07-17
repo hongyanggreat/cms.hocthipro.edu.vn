@@ -1,0 +1,1 @@
+<div class="fyi-300 nocontent robots-nocontent" style="width:300px;height:250px;background:#DDFFEE"><div id="BaoMoi_HomeMiddle_1"></div></div>

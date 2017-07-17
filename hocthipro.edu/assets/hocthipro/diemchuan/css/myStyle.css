@@ -1,0 +1,68 @@
+		#photo-box.boxTimTruong{
+    		border: 1px solid #e6e6e6;
+		    border-radius: 3px;
+		    padding: 2px;
+    	}
+    	#photo-box.boxTimTruong,
+    	#photo-box.boxTimTruong .bx-wrapper .bx-viewport{
+    		height: auto;
+    	}
+    	.clblue2 {
+		    color: #36c!important;
+		}
+		input, textarea, select, .uneditable-input {
+		    color: #333;
+		    display: inline-block;
+		    font-style: italic;
+		    line-height: 18px;
+		    padding: 4px;
+		    border: 1px solid #e5e5e5;
+		    color: #666;
+		    border-radius: 3px;
+		    font-size: 12px;
+		}
+		.choice{
+			width: 30%;
+			margin-left: 2px;
+			margin-bottom:10px;
+		}
+		#findSchool h4{
+			margin-bottom: 10px;
+		}
+		.showListSchool{
+			margin: 5px auto;
+			padding: 5px;
+			border: 1px solid rgb(232, 232, 232);
+			border-radius: 3px;
+			background: rgb(241, 241, 241);
+			max-height: 200px;
+			overflow-y: scroll;
+			overflow-x: hidden;
+		}
+		.selectShool option{
+			padding: 5px;
+		    font-family: Baomoi, Arial, Helvetica, sans-serif;
+		    font-size: 15px;
+		    font-style: normal;
+		    cursor: pointer;
+		}
+		.selectShool option:hover{
+			color: #10ca10;
+			background: rgba(245, 245, 245, 0.66);
+		}
+		.resetSearch,
+		.searchShool{
+			border: 1px solid #034803;
+			background: green;
+			color: #fff;
+			padding: 2px 10px;
+		}
+		.resetSearch{
+			background: #e6e6e6;
+			color: #000;
+			box-shadow: 0px 0px 1px 1px #ccc8c8;
+			border: none;
+		}
+		#photo-box .slider{
+			float: none;
+		}
